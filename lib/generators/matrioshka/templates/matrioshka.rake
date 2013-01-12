@@ -8,7 +8,9 @@ namespace '<%= application.underscore.gsub('/', '_') %>' do
     if location == Rails.root.to_s
       puts "This task was successfully registered. Call it from the gem consumer not from the gem itself."
     else
-      generator.copy_gemfile_from location, '<%= application.underscore.gsub('/', '_') %>' 
+      generator.copy_gemfile_from location, '<%= application %>' 
+      generator.prepend_seeds '<%= application %>'
+      generator.run "bundle install"
     end
   end
 end
