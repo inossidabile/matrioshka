@@ -7,6 +7,7 @@ module Matrioshka
         template "matrioshka.rake", "lib/tasks/matrioshka.rake"
         template "engine.rb", "lib/#{application.underscore}.rb"
         template "init.rb", "init.rb"
+        template "application.gemspec", "#{application.underscore.gsub('/', '-')}.gemspec"
 
         %w(
           config.ru
