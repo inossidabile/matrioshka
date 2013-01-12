@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["boris@roundlake.ru"]
   gem.description   = %q{Turn your Rails 3 application into a gem}
   gem.summary       = gem.description
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/inossidabile/matrioshka"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
