@@ -16,7 +16,7 @@ module <%= application %>
       <% if defined?(ActiveAdmin) %>
       # ActiveAdmin
       ActiveAdmin.setup do |config|
-        config.load_paths << <%= application %>::Engine.root.join('app/admin')
+        config.load_paths << <%= application %>::Engine.root.join('app/admin').to_s
       end
       <% end %>
     end
