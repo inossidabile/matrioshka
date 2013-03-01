@@ -4,6 +4,8 @@ Organizing redistributable Rails applications can be a pain. Typical way to solv
 
 Matrioshka is a set of ready generators that will do the job on your behalf.
 
+[![endorse](http://api.coderwall.com/inossidabile/endorsecount.png)](http://coderwall.com/inossidabile)
+
 ## Host Application (Gem)
 
 Inject the following to your host application Gemfile:
