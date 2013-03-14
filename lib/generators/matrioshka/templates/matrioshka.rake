@@ -13,4 +13,6 @@ namespace '<%= application.underscore.gsub('/', '_') %>' do
       generator.run "bundle install"
     end
   end
+
+  task :install => :link
 end
