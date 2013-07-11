@@ -44,10 +44,10 @@ rake $application:link
 
 Ta-dam. You are done here. Time to party hard.
 
-## Contributing
+## Maintainers
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+* Boris Staal, [@inossidabile](http://staal.io)
+
+## License
+
+It is free software, and may be redistributed under the terms of MIT license.
